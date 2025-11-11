@@ -1,0 +1,15 @@
+.sectionSearch{
+    padding: 0 16px;
+    margin-top: 24px ;
+}
+.navbark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    /* margin-top: 42px; */
+    padding: 0 16px ;
+    border-bottom: 1px solid #EFEEF0;
+    height: 54px;
+    margin-top: 16px;
+}

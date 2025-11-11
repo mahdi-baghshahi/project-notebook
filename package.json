@@ -1,5 +1,5 @@
 {
-"name": "vite-react-project",
+  "name": "vite-react-project",
   "version": "0.0.0",
   "homepage": "https://github.com/mahdi-baghshahi/project_notebook.git",
   "type": "module",
@@ -8,13 +8,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "yarn run build", 
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.5",
+    "@mui/joy": "^5.0.0-beta.52",
     "@mui/material": "^7.3.5",
     "@reduxjs/toolkit": "^2.10.1",
     "react": "^19.1.1",

@@ -1,0 +1,52 @@
+.containerbtn{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 24px; */
+
+}
+
+.btn_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+
+}
+
+.btn_close{
+    display: flex;
+    /* margin: 16px 16px 8px 0 ; */
+    
+    justify-content:end;
+    /* margin-top: 16px; */
+    margin-bottom: 8px;
+    /* top: 0; */
+    /* right: 0; */
+
+}
+
+.modalOverlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(130, 125, 137, 0.6);
+  /* justify-content و align-items را حذف کنید */
+  display: flex; /* باید باقی بماند تا آیتم‌های فلکس کار کنند */
+  align-items: flex-end; /* این خط پاپ‌آپ را به پایین می‌چسباند */
+  z-index: 1000;
+}
+
+.modalContainer1 {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px 16px 0 0; /* فقط گوشه‌های بالا گرد باشند */
+  /* text-align: center; */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); /* سایه به بالا منتقل می‌شود */
+  width: 100%; /* عرض کامل را می‌گیرد */
+  height:auto ;
+  position: relative;
+  z-index: 1001;
+  
+}

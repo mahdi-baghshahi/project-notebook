@@ -1,0 +1,21 @@
+.p_newnotes{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    margin-right: 120px;
+    /* padding: 16px 0; */
+
+}
+.nav_newnotes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #EFEEF0;
+    height: 54px;
+    margin-top: 16px;
+}
+.main_newnotes{
+    padding: 0 16px;
+}

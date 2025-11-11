@@ -1,0 +1,73 @@
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(130, 125, 137, 0.6);
+  display: flex; 
+  align-items: flex-end;
+  z-index: 1000;
+}
+
+.modalContainer {
+  background-color: white;
+  /* padding: 16px; */
+  border-radius: 16px 16px 0 0;
+  /* text-align: center; */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); 
+  width: 100%; 
+  height: 472px;
+  position: relative;
+  z-index: 1001;
+  
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.Itempoint{
+  border-bottom:  1px solid   #EFEEF0;
+  padding-bottom: 15px;
+  margin-top: 16px;
+  padding: 0 16px 0 16px;
+}
+
+.Itemcolor{
+    border-bottom:  1px solid   #EFEEF0;
+  padding-bottom: 15px;
+  margin: 48px 0 0 16px;
+}
+
+.leftContent{
+  padding: 0 16px 0 16px;
+  
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+
+.markfinished{
+    padding: 0 16px 0 0px;
+  border: none;
+  background-color: inherit;
+   display: flex;
+   align-items: center;
+   gap: 12px;
+  transition: background-color 0.2s ease;
+}
+.markfinished:hover {
+    /* 🎨 یک رنگ پس‌زمینه بسیار ملایم (مانند خاکستری روشن) */
+    background-color: rgba(0, 0, 0, 0.05); 
+    
+    /* 👈 نکته: برای اینکه هاور تمام عرض دکمه را بگیرد، 
+       ممکن است نیاز به تنظیم عرض (width) دکمه در استایل اصلی داشته باشید. */
+}

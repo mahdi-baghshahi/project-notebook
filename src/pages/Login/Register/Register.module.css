@@ -1,0 +1,28 @@
+
+.link_container_register{
+    margin-top: 32px;
+}
+
+.registerCountainer{
+    padding: 0 16px;
+}
+
+
+.img_link_register{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: #6A3EA1;
+}
+
+.input_register{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+}
+
+ .btn_register_login{
+    margin-top:40px ;
+    display: block;
+ }

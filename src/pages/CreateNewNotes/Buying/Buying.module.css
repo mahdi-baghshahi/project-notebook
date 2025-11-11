@@ -1,0 +1,102 @@
+.nav_buying{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #EFEEF0;
+    height: 54px;
+    margin-top: 16px;
+}
+.main_buying{
+    padding: 0 24px;
+}
+.hr_buying{
+    border-bottom:  1px solid   #EFEEF0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+.add_checkbox{
+
+    display: flex;
+    gap: 8px;
+    align-items: center; 
+    background: none;
+    border: none;
+    color: #6A3EA1; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px 0;
+    text-align: left;
+    text-decoration: underline; 
+    text-underline-offset: 3px;
+}
+.custom_checkbox {
+    /* شبیه یک مربع ساده */
+    height: 22px;
+    width: 22px;
+    background-color: #ffffff; /* داخل سفید */
+    border: 1px solid #C8C5CB; /* حاشیه خاکستری روشن */
+    border-radius: 3px;
+    margin-right: 10px; /* فاصله از متن وظیفه */
+    display: inline-block;
+    transition: all 0.2s ease;
+    
+    /* تنظیمات برای قرار دادن علامت تیک در مرکز */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; /* جلوگیری از کوچک شدن مربع */
+}
+.need_text{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #180E25;
+}
+.checkbox_fa{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin: 12px 8px 12px 8px;
+}
+.checkbox_fa p{
+    padding: 0;
+    margin: 0;
+}
+
+.tag_text{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.nima{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;  
+   border-radius: 4px;
+}
+.checkbox_f{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin: 12px 8px 12px 8px;
+}
+.inpute{
+    border: none;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    color: #180E25 !important;
+    line-height: 140% !important;
+    display: inline-block;
+    flex-grow: 1;
+    padding: 0;
+    margin-left: 8px;
+    width: 278px;
+    /* height: px; */
+}
+

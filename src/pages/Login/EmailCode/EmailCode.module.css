@@ -1,0 +1,19 @@
+.img_link_register{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: #6A3EA1;
+}
+.text_emailcode{
+    margin-top:300px ;
+}
+.backlink_emailcode{
+    margin-top: 16px;
+
+}
+.input_container_emailcode{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 48px;
+}

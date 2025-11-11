@@ -1,0 +1,80 @@
+
+ .ideaCard {
+    width: 180px;
+    height: 224px;
+    background-color: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.card_inner {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.idea_title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #180E25;
+    margin: 0;
+}
+
+.idea_description {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: #827D89;
+    margin: 0;
+}
+
+.card_footer {
+    background-color: #E8E8E8;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 12px 12px;
+    width: auto;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.interesting_idea_button {
+    background: none;
+    border: none;
+    color: #827D89;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.2s ease-in-out;
+    margin-left: 12px;
+}
+
+.imageContainer {
+    width: 100%; /* عرض کامل کارت */
+    max-height: 100px; /* حداکثر ارتفاع برای جلوگیری از بزرگ شدن بیش از حد */
+    overflow: hidden; /* برش دادن قسمت‌های اضافی عکس */
+    border-radius: 8px 8px 0 0; /* گرد کردن گوشه‌های بالا */
+    margin-bottom: 8px; /* فاصله بین عکس و عنوان */
+}
+
+/* استایل عکس */
+.cardImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* مطمئن شدن از اینکه عکس کل کانتینر را پر می‌کند */
+}

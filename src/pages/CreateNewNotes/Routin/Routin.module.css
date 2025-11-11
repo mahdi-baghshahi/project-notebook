@@ -1,0 +1,70 @@
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #EFEEF0;
+    height: 54px;
+    margin-top: 16px;
+}
+
+.btnIcon{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.ActiveSubNotes{
+  margin-top: 16px;
+  padding-left: 16px;
+}
+.CompletedSubNotes{
+  margin-top: 16px;
+  padding: 0 16px 25px 16px;
+}
+.line {
+  border: 1px solid #EFEEF0; 
+  margin-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ItemSubNote {
+  padding-left: 16px;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px; 
+    border-bottom: 1px solid #EFEEF0;
+    height: 54px;
+    margin-top: 16px;
+}
+
+.btnIcon{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+
+.ActiveSubNotes{
+    margin-top: 16px;
+    padding: 0 16px;
+}
+.CompletedSubNotes{
+    margin-top: 24px;
+    padding: 0 16px 25px 16px;
+}
+
+.line {
+    border-top: 1px solid #EFEEF0; 
+    margin-top: 24px;
+}
+
+.ItemSubNote {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 12px; 
+}

@@ -1,0 +1,27 @@
+ .circular_button {
+  /* margin-right: 17.3px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+  width: 32px; 
+  height: 32px; 
+  border-radius: 50%; 
+  border: 1px solid ; 
+  cursor: pointer; 
+  padding: 0; 
+}
+
+.color_container {
+  display: inline-block;
+  margin: 0 7.3px 0 7.3px; 
+}
+
+
+.circular_button:active {
+  transform: scale(0.98); 
+}
+
+.circular_button:hover {
+  opacity: 0.8; 
+}

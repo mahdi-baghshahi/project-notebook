@@ -1,0 +1,70 @@
+.noteContainer {
+  padding: 0; 
+  position: relative;
+  margin-top: 24px;
+  display: flex;
+  align-items: start;
+  gap: 8px; 
+  width: max-content; 
+}
+
+.ContainerNote{
+  background-color: #EFE9F7;
+  border-radius: 8px;
+  width: 272px; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.radioPlaceholder {
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin: 12px 12px 0 12px; 
+}
+
+.line {
+  border: 1px solid #C8C5CB; 
+  width: 99%;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.editableTitle{
+  color: #6A3EA1; 
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0; 
+  padding: 0;
+  outline: none;
+}
+
+.circle input {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  border: 1px solid #C8C5CB; 
+  background-color: #ffffff;
+}
+
+
+.Containercontent{
+  padding: 8px 12px 12px 12px; 
+}
+
+
+.editableSection{
+    color: #8668ab;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0; 
+  overflow: hidden; 
+  outline: none;
+}
+
+.dragIcon {
+  padding-top: 12px; 
+}

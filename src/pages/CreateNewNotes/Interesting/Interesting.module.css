@@ -1,0 +1,46 @@
+.nav_int{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #EFEEF0;
+    height: 54px;
+    margin-top: 16px;
+}
+
+.Interesting{
+    padding: 0 16px;
+}
+
+.hr_int{
+    border-bottom:  1px solid   #EFEEF0;
+}
+.tag_text{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.editableTitle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #180E25;
+    outline: none;
+}
+.editableContent{
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 140%;
+    color: #827D89;
+    outline: none;
+
+}
+.Interesting_container{
+    min-height: 100vh; 
+    width: 100%;
+}
+
+
+
+

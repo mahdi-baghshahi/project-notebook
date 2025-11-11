@@ -1,0 +1,20 @@
+.itemsetting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.leftContent{
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+
+.itemlable{
+       display: flex;
+   align-items: center;
+   gap: 8px;
+}

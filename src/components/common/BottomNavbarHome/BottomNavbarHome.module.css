@@ -1,0 +1,55 @@
+.BottomNavbarHome{
+    border-top: 1px solid  #EFEEF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 360px;
+    height: 48px;
+    background-color: #ffff;
+}
+
+.pointer{
+    background-color:#6A3EA1 ;
+}
+.iconNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: px; */
+}
+
+.textnav{
+        font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000000;
+
+}
+.iconButton{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconNavbar{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 0px; کاهش فاصله داخلی بین آیتم‌ها برای ظاهری فشرده‌تر */
+  /* padding-right: 8px; */
+    
+}
+.pointer{
+    height: 48px;
+    width: 48px;
+    
+}
+.lastEditedContainer{
+    padding-left: 16px;
+    
+}
